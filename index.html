@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body style="background-color:#1B244A">
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+            </div>
+        </div>
+        <div class="home-score"> 
+            <p style="color:#F94F6D;" id="hscore">0</p>
+        </div>
+        <div class="guest-score">
+            <p style="color:#F94F6D;" id="gscore">0</p>
+        </div>
+        <button class="home-one-point" onclick="hone()">+1<button>
+        <button class="home-two-point" onclick="htwo()">+2</button>
+        <button class="home-three-point" onclick="hthree()">+3</button>
+        <button class="guest-one-point"onclick="gone()">+1<button>
+        <button class="guest-two-point" onclick="gtwo()">+2</button>
+        <button class="guest-three-point" onclick="gthree()">+3</button>
+        <button class="home-foul" onclick="hfoul()">HOME FOUL</button>
+        <button class="guest-foul" onclick="gfoul()">GUEST FOUL</button>
+        <button class="restart" onclick="reset()">RESET</button>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
